@@ -1,0 +1,104 @@
+		============= BOMBERMAN – HẦM NGỤC VÔ TẬN ============
+-- BỐI CẢNH --
+
+- Từ thời cổ đại, một mê cung vô tận mang tên "Hầm Ngục Vĩnh Hằng" đã tồn tại trong lòng đất.
+Nó là một thực thể sống, liên tục thay đổi và mở rộng. Những ai bước vào sẽ không bao giờ 
+thấy lối ra… trừ khi họ đủ mạnh để vượt qua thử thách!
+- Một truyền thuyết cổ xưa nói rằng, ở trung tâm mê cung tồn tại Trái Tim Vô Tận – một viên pha
+lê chứa đựng sức mạnh có thể thay đổi cả vũ trụ. Nhiều chiến binh, nhà thám hiểm và kẻ tham lam
+đã bước vào, nhưng không một ai trở về.
+- Bomberman, với tinh thần phiêu lưu bất diệt, quyết định bước vào hầm ngục này. Liệu anh ta có thể
+sống sót trong mê cung vô tận và khám phá bí mật của Trái Tim Vô Tận ?
+
+
+-- LỐI CHƠI --
+
+- Bản đồ thay đổi liên tục: Mỗi khi người chơi bước sang một khu vực mới, bản đồ sẽ được tạo ngẫu
+nhiên với những chướng ngại vật và kẻ thù khác nhau.
+- Không có điểm dừng: Trò chơi không có hồi kết – bạn chỉ có thể đi xa nhất có thể trước khi bị đánh bại.
+- Kẻ thù mạnh dần: Mỗi cấp độ sâu hơn, quái vật sẽ thông minh và nguy hiểm hơn.
+- Thu thập và nâng cấp bom: Nhặt các vật phẩm đặc biệt giúp tăng sát thương, phạm vi nổ hoặc thêm hiệu 
+ứng đặc biệt cho bom.
+- Sự kiện bất ngờ: Có những căn phòng bí ẩn chứa boss ẩn, kho báu hoặc những cái bẫy chết người.
+
+
+-- MỤC TIÊU CUỐI CÙNG --
+
+Mặc dù là một map vô tận, nhưng nếu người chơi đi đủ xa, có thể sẽ mở khóa những đoạn cắt cảnh bí ẩn hé lộ
+dần về bí mật của Hầm Ngục Vĩnh Hằng. Liệu có ai đó từng thoát ra? Liệu Trái Tim Vô Tận có thực sự tồn tại?
+
+Bomberman sẽ là người giải đáp tất cả… hoặc trở thành một trong những kẻ bỏ mạng trong mê cung!
+
+
+-- KẾT THÚC --
+
+Nếu người chơi thất bại, Bomberman sẽ trở thành một Linh Hồn Bomberman, bị mắc kẹt vĩnh viễn.
+Nếu người chơi thành công, anh ta sẽ tìm thấy Trái Tim Vô Tận, nhưng có một sự lựa chọn:
+1️⃣ Sử dụng nó để thoát khỏi hầm ngục và phá hủy nơi này.
+2️⃣ Ở lại để kiểm soát và bảo vệ Trái Tim Vô Tận, trở thành Người Canh Giữ mới.
+
+
+-- HỆ THỐNG QUI VẬT --
+
+
+1. 🏴‍☠️Quái Vật Linh Hồn – Những Kẻ Lạc Lối
+📖 Câu chuyện: Những chiến binh, nhà thám hiểm đã từng tiến vào hầm ngục nhưng không bao giờ tìm thấy lối ra. 
+Họ đã bị nuốt chửng bởi bóng tối và biến thành những linh hồn lang thang, mất đi ý thức, chỉ còn lại sự thù hận
+với kẻ xâm nhập mới.
+
+🔸 Các loại quái vật:
+
+👤 Linh Hồn Bomberman: Một chiến binh bị nguyền rủa, có thể ném bom giống Bomberman nhưng không thể bị tiêu diệt dễ dàng.
+
+👻 Bóng Ma Hầm Ngục: Di chuyển xuyên tường, chỉ hiện ra khi Bomberman ở gần.
+
+💀 Xương Quỷ Đói Khát: Một bộ xương khô luôn đuổi theo Bomberman, không thể bị phá hủy bằng bom bình thường.
+
+🔥 Cách đánh bại: Sử dụng Bom Ánh Sáng hoặc tìm Ngọn Lửa Thanh Tẩy ẩn trong mê cung.
+
+
+2. 🤖Quái Vật Cơ Giới – Lính Gác Của Hầm Ngục
+📖 Câu chuyện: Hầm ngục không chỉ là một nơi bị nguyền rủa, mà nó còn có những cỗ máy cổ đại canh giữ bí mật. 
+Chúng được tạo ra từ một nền văn minh đã mất, với nhiệm vụ duy nhất: bảo vệ Trái Tim Vô Tận bằng mọi giá.
+
+🔸 Các loại quái vật:
+
+🤖 Sentinel 01: Một robot hình trụ có thể phát hiện chuyển động và bắn laser về phía Bomberman.
+
+🛡 Guardian X: Một robot khổng lồ có khiên chắn bom và chỉ lộ điểm yếu khi tấn công.
+
+🚀 Hunter Drone: Bay lơ lửng, theo dõi Bomberman và kích nổ khi lại gần.
+
+⚡ Cách đánh bại: Tìm Bom EMP để vô hiệu hóa tạm thời hoặc sử dụng Bom Từ Tính để hút chúng lại gần nhau và làm nổ chùm.
+
+
+3. 🦠Quái Vật Hắc Ám – Sự Sống Của Mê Cung
+📖 Câu chuyện: Bản thân hầm ngục là một thực thể sống, và nó có thể tạo ra những sinh vật từ bóng tối để 
+tiêu diệt kẻ xâm nhập. Những quái vật này không có hình dạng cố định, có thể xuất hiện từ bất cứ đâu.
+
+🔸 Các loại quái vật:
+
+🕷 Bóng Nhện Hủy Diệt: Bò trên tường, phóng tơ làm chậm Bomberman.
+
+🌀 Lốc Xoáy Hư Không: Một vùng bóng tối di chuyển chậm, hút Bomberman vào và làm anh ta mất kiểm soát.
+
+👁 Con Mắt Vô Tận: Nhìn thấy Bomberman qua tường, báo hiệu cho những quái vật khác đến tấn công.
+
+🌙 Cách đánh bại: Tìm Ngọc Ánh Sáng để làm suy yếu chúng hoặc tránh giao chiến trực tiếp.
+
+
+🏆 4. Boss Bí Ẩn – Người Canh Giữ Trái Tim Vô Tận
+📖 Câu chuyện: Ở tầng sâu nhất của hầm ngục, một thực thể cổ đại tồn tại từ thời điểm đầu tiên của vũ trụ. 
+Không ai biết nó là gì, chỉ biết rằng bất kỳ ai nhìn thấy nó đều không bao giờ trở lại.
+
+🔥 Tên Boss: Đấng Bất Tử – ETERNUS
+💀 Một thực thể có thể điều khiển bom, tạo ra vùng không gian xoắn khiến bom của Bomberman phát nổ ngay 
+khi được đặt xuống.
+
+🔺 Chiến đấu với Eternus:
+
+Giai đoạn 1: Dùng Bom Thời Gian để làm chậm hắn.
+
+Giai đoạn 2: Né tránh các đòn tấn công trọng lực.
+
+Giai đoạn 3: Tìm cách phá hủy lõi năng lượng của hắn để chấm dứt vòng lặp vô tận.
