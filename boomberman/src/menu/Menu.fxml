@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="336.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.MenuController">
+   <children>
+      <ImageView fitHeight="336.0" fitWidth="601.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@images/menu.png" />
+         </image>
+      </ImageView>
+      <VBox alignment="CENTER" layoutX="250.0" layoutY="61.0" prefHeight="214.0" prefWidth="100.0" spacing="11.0">
+         <children>
+            <Button fx:id="playButton" blendMode="MULTIPLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onPlayButtonClick" opacity="0.0" prefHeight="31.0" prefWidth="91.0" />
+            <Button fx:id="helpButton" blendMode="MULTIPLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onHelpButtonClick" opacity="0.0" prefHeight="31.0" prefWidth="91.0" />
+            <Button fx:id="exitButton" blendMode="MULTIPLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onExitButtonClick" opacity="0.0" prefHeight="31.0" prefWidth="91.0" text="Exit" />
+         </children>
+      </VBox>
+      <Button fx:id="settingButton" blendMode="MULTIPLY" layoutX="1.0" layoutY="5.0" mnemonicParsing="false" onAction="#onSettingButtonClick" opacity="0.0" prefHeight="35.0" prefWidth="48.0" text="Setting" />
+      <Button fx:id="authorButton" layoutX="535.0" layoutY="303.0" mnemonicParsing="false" onAction="#onAuthorsButtonClick" opacity="0.0" text="Authors" />
+   </children>
+</AnchorPane>

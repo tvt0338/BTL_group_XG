@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.screen_2.AuthorsController">
+   <children>
+      <Button fx:id="returnButton" layoutX="534.0" layoutY="361.0" mnemonicParsing="false" onAction="#returnToScreen" text="Return" />
+   </children>
+</AnchorPane>

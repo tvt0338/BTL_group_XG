@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="342.0" prefWidth="603.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.screen_2.HelpController">
+    <children>
+      <ImageView fitHeight="341.0" fitWidth="617.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/help_screen.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="returnButton" layoutX="510.0" layoutY="292.0" mnemonicParsing="false" onAction="#returnToScreen" opacity="0.0" prefHeight="36.0" prefWidth="64.0" text="RETURN" />
+        <!-- Thêm các thành phần khác của màn hình Help ở đây -->
+    </children>
+</AnchorPane>
