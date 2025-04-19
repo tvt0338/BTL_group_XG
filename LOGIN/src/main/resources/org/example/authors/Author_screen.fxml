@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="287.0" prefWidth="684.0" style="-fx-background-color: #112d9d;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.authors.AuthorController"> 
+   <children>
+      <HBox layoutX="1.0" layoutY="1.0" prefHeight="215.0" prefWidth="567.0">
+         <children>
+            <ImageView fitHeight="325.0" fitWidth="227.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/Minh.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="278.0" fitWidth="227.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/Thanh.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="297.0" fitWidth="227.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/Toan.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <Button fx:id="returnToMenu" layoutX="613.0" layoutY="248.0" mnemonicParsing="false" onAction="#changeToMenu" prefHeight="39.0" prefWidth="70.0" text="Return" />
+   </children>
+</AnchorPane>
