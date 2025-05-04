@@ -1,0 +1,126 @@
+1. Void
+Tên: Void
+
+Đặc tính: Tàng hình, di chuyển ngẫu nhiên, xuất hiện định kỳ.
+
+Hình ảnh:
+
+Một thực thể gần như trong suốt, có thể có màu đen hoặc tím sẫm.
+
+Khi tàng hình, có thể để lại một vệt mờ hoặc hiệu ứng gợn sóng nhẹ trên không khí.
+
+Khi hiện hình, có thể có đôi mắt sáng đỏ hoặc một hình dạng lờ mờ, không rõ ràng.
+
+Có thể thêm hiệu ứng âm thanh đặc biệt khi Void xuất hiện hoặc biến mất, như tiếng gió rít hoặc tiếng thì thầm.
+
+Gameplay:
+
+Tàng hình:
+
+Void hoàn toàn biến mất khỏi màn hình trong một khoảng thời gian cố định (ví dụ: 2.5 giây).
+
+Trong thời gian này, nó di chuyển ngẫu nhiên trên bản đồ, không thể bị tấn công.
+
+Xuất hiện:
+
+Sau khoảng thời gian tàng hình, Void hiện hình trong một thời gian ngắn (ví dụ: 0.5 giây).
+
+Vị trí xuất hiện có thể được báo trước bằng một hiệu ứng nhỏ, như một vòng tròn mờ xuất hiện trên mặt đất.
+
+Trong thời gian hiện hình, Void có thể bị tấn công bằng bom.
+
+Tấn công:
+
+Khi chạm vào Bomberman, gây 1 sát thương.
+
+Void không đặt bom.
+
+Độ khó: Cao. Người chơi cần phải có khả năng quan sát tốt và phản ứng nhanh để tấn công Void khi nó hiện hình.
+
+Ý tưởng bổ sung:
+
+Có thể tăng độ khó bằng cách tăng tốc độ di chuyển của Void khi tàng hình, hoặc giảm thời gian hiện hình.
+
+Có thể thêm một loại vật phẩm đặc biệt để phát hiện Void khi nó tàng hình.
+
+2. Spirit
+Tên: Spirit
+
+Đặc tính: Linh hồn của Bomber đã chết, có khả năng đặt bom và truy đuổi.
+
+Hình ảnh:
+
+Một bóng ma mờ ảo, có thể có màu xanh lá cây hoặc xanh lam nhạt.
+
+Có thể có hình dạng giống như Bomber, nhưng trong suốt và lơ lửng.
+
+Hiệu ứng đặc biệt: Có thể có những vệt khói hoặc ánh sáng mờ ảo xung quanh Spirit.
+
+Gameplay:
+
+Di chuyển:
+
+Spirit di chuyển chậm hơn Bomber một chút.
+
+Khi phát hiện Bomber trong phạm vi nhất định, Spirit sẽ bắt đầu truy đuổi.
+
+Spirit có thể đi xuyên qua các vật cản mềm (như tường có thể phá hủy) nhưng không đi xuyên qua vật cản cứng.
+
+Đặt bom:
+
+Spirit có khả năng đặt bom, nhưng chỉ đặt được bom có bán kính nổ 1 ô.
+
+Tốc độ đặt bom của Spirit chậm hơn Bomber.
+
+Spirit có thể đặt bom để cản đường Bomber hoặc cố gắng tấn công trực tiếp.
+
+Tấn công:
+
+Bom của Spirit gây sát thương tương tự như bom của Bomber.
+
+Khi chạm vào Bomber, gây 1 sát thương.
+
+Độ khó: Trung bình. Người chơi cần phải cẩn thận với những quả bom bất ngờ từ Spirit và tìm cách tiêu diệt nó trước khi bị dồn vào chân tường.
+
+Ý tưởng bổ sung:
+
+Có thể tăng độ khó bằng cách tăng tốc độ di chuyển hoặc tốc độ đặt bom của Spirit khi nó truy đuổi Bomber.
+
+Có thể thêm một loại power-up đặc biệt để tăng bán kính vụ nổ bom của Spirit trong một thời gian ngắn.
+
+3. Tanker
+Tên: Tanker
+
+Đặc tính: Máu cao, di chuyển chậm.
+
+Hình ảnh:
+
+Một sinh vật to lớn, có thể được thiết kế như một con robot đồ sộ hoặc một sinh vật bọc thép.
+
+Di chuyển chậm chạp, có thể có những bước đi nặng nề.
+
+Có thể có vẻ ngoài hầm hố, với nhiều chi tiết như giáp trụ, bánh xích, hoặc các bộ phận máy móc.
+
+Gameplay:
+
+Máu: Tanker có 3 máu, cần trúng 3 quả bom để tiêu diệt.
+
+Di chuyển:
+
+Tanker di chuyển rất chậm, cho phép người chơi có thời gian để né tránh.
+
+Tuy nhiên, Tanker có thể có khả năng phá hủy các vật cản mềm khi di chuyển qua chúng.
+
+Tấn công:
+
+Khi chạm vào Bomber, gây 1 sát thương.
+
+Tanker không đặt bom.
+
+Độ khó: Thấp đến trung bình. Tanker chủ yếu tạo ra thử thách về khả năng đặt bom chiến lược và kiểm soát không gian.
+
+Ý tưởng bổ sung:
+
+Có thể tăng độ khó bằng cách cho Tanker khả năng chịu được nhiều loại sát thương khác nhau (ví dụ: chỉ bị ảnh hưởng bởi bom nổ ở vị trí chính giữa).
+
+Có thể thêm một đòn tấn công đặc biệt cho Tanker, chẳng hạn như khả năng lao tới với tốc độ cao trong một khoảng thời gian ngắn.
