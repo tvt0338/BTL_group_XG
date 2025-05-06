@@ -12,7 +12,7 @@ import javafx.scene.paint.Color;
 public class GameCanvas extends Canvas {
     //Screen settings
     static final int originalTilePixels = 16;
-    static final int scale = 4;
+    static final int scale = 2;
     public static final int tileSize = originalTilePixels * scale;
     public static final int maxScreenCol = 16;
     public static final int maxScreenRow = 12;
@@ -28,7 +28,7 @@ public class GameCanvas extends Canvas {
     private final int speed = 8;
 
     //World Setting
-    public final int maxWorldCol = 60;
+    public final int maxWorldCol = 30;
     public final int maxWorldRow = 30;
     public final int worldWidth = tileSize * maxWorldCol;
     public final int worldHeight = tileSize * maxWorldRow;

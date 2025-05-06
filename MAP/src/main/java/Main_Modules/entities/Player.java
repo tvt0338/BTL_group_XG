@@ -24,10 +24,10 @@ public class Player extends Entity{
         screenY = GameCanvas.screenHeight / 2 -(GameCanvas.tileSize / 2);
 
         solidArea = new Rectangle();
-        solidArea.x = 8;
-        solidArea.y = 12;
-        solidArea.width = 32;
-        solidArea.height = 32;
+        solidArea.x = 4;
+        solidArea.y = 8;
+        solidArea.width = 24;
+        solidArea.height = 24;
 
         setDefaultValue();
         getPlayerImage();
@@ -36,9 +36,9 @@ public class Player extends Entity{
     }
 
     public void setDefaultValue() {
-        worldX = 100;
-        worldY = 100;
-        speed = 8;
+        worldX = 250;
+        worldY = 150;
+        speed = 4;
         direction = "down";
 
     }

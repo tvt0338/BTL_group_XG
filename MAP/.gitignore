@@ -36,3 +36,13 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignore everything in MAP/
+MAP/*
+
+# Allow just what we want
+!MAP/src/
+!MAP/src/**/
+!MAP/src/**/*
+!MAP/pom.xml
+!MAP/.gitignore

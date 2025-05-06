@@ -24,18 +24,19 @@ public class TileManager {
 
     public void getTileImage() {
         tile[3] = new Tile();
-        tile[3].image = new Image(getClass().getResourceAsStream("/Images/Tile/grass.png"));
+        tile[3].image = new Image(getClass().getResourceAsStream("/Images/Tile/destructiblewall.png"));
+        tile[3].collision = true;
 
         tile[1] = new Tile();
         tile[1].image = new Image(getClass().getResourceAsStream("/Images/Tile/wall.png"));
         tile[1].collision = true;
 
         tile[2] = new Tile();
-        tile[2].image = new Image(getClass().getResourceAsStream("/Images/Tile/earth.png"));
-
-        tile[4] = new Tile();
-        tile[4].image = new Image(getClass().getResourceAsStream("/Images/Tile/destructiblewall.png"));
-//        tile[4].collision = true;
+        tile[2].image = new Image(getClass().getResourceAsStream("/Images/Tile/grass.png"));
+//
+//        tile[4] = new Tile();
+//        tile[4].image = new Image(getClass().getResourceAsStream("/Images/Tile/destructiblewall.png"));
+////        tile[4].collision = true;
     }
 
 //    public void loadMap(String filePath) {

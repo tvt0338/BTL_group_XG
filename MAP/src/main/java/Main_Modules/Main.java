@@ -22,7 +22,7 @@ public class Main extends Application {
         Scene scene = new Scene(root, GameCanvas.screenWidth, GameCanvas.screenHeight);
         primaryStage.setTitle("2D game");
         primaryStage.setScene(scene);
-        primaryStage.setResizable(false);
+        primaryStage.setResizable(true);
         primaryStage.show();
 
         gameCanvas.startGame();
