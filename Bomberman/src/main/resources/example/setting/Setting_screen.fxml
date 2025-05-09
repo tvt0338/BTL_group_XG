@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.login.setting.SettingController" >
+    <children>
+        <Label contentDisplay="TEXT_ONLY" prefHeight="52.0" prefWidth="601.0" text="Settings">
+            <font>
+                <Font name="System Bold Italic  " size="48.0" />
+            </font>
+            <VBox.margin>
+                <Insets />
+            </VBox.margin>
+            <padding>
+                <Insets left="50.0" />
+            </padding>
+        </Label>
+        <Label prefHeight="51.0" prefWidth="145.0" text="Audio">
+            <font>
+                <Font name="Bell MT Bold" size="33.0" />
+            </font>
+            <padding>
+                <Insets left="50.0" />
+            </padding>
+        </Label>
+        <HBox prefHeight="59.0" prefWidth="408.0">
+            <children>
+                <ImageView fx:id="audioImage" fitHeight="63.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true" />
+                <Slider fx:id="audioSlider" prefHeight="63.0" prefWidth="289.0" showTickLabels="true" showTickMarks="true" value="50.0" />
+                <Label fx:id="audioLabel" prefHeight="63.0" prefWidth="60.0" text="Label" />
+            </children>
+        </HBox>
+        <Pane prefHeight="56.0" prefWidth="423.0">
+            <children>
+                <Button fx:id="returnToScreenButton" layoutX="165.0" layoutY="6.0" mnemonicParsing="false" onAction="#changeToScreen" prefHeight="36.0" prefWidth="64.0" text="Return" textFill="#2f1c1c">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+    </children>
+</VBox>
