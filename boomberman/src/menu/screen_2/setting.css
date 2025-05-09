@@ -1,0 +1,12 @@
+.slider .track {
+    -fx-background-color: #b0bec5; /* màu nền thanh trượt */
+}
+
+.slider .thumb {
+    -fx-background-color: #ff4081; /* màu nút kéo */
+}
+
+.slider .axis {
+    -fx-tick-label-fill: white; /* màu chữ số (nếu bật) */
+    -fx-tick-mark-fill: gray;   /* màu vạch */
+}

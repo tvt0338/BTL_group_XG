@@ -1,0 +1,8 @@
+/* style.css */
+.label-dialogue {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-font-size: 33px;
+    -fx-alignment: top-left;
+    -fx-padding: 30;
+}

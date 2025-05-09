@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="843.0" prefWidth="1530.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.screen_2.PlayController">
+   <children>
+      <ImageView fitHeight="864.0" fitWidth="1537.0" layoutX="182.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-21.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-7.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../../../../boomberman/src/menu/images/nen.png" />
+         </image></ImageView>
+      <ImageView fitHeight="591.0" fitWidth="1530.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/start.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="labelDialogue" layoutX="-4.0" layoutY="605.0" prefHeight="234.0" prefWidth="1537.0" style="-fx-background-color: black;" styleClass="label-dialogue" stylesheets="@play.css" text="Trong một vũ trụ xa xôi, tồn tại một vương quốc hòa bình mang tên &quot;Terra&quot;, nơi con người và các sinh vật sống chung trong yên bình. Vương quốc được bảo vệ bởi Thần Nhãn (God’s Eye) - một viên bảo thạch thần bí có khả năng xua tan bóng tối và bảo vệ thế giới khỏi thế lực tà ác." textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Cambria Math" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="108.0" fitWidth="491.0" layoutX="503.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/intro.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="66.0" layoutX="1400.0" layoutY="747.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/nhay.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="nextButton" layoutX="1407.0" layoutY="746.0" mnemonicParsing="false" onAction="#initialize" opacity="0.0" prefHeight="66.0" prefWidth="58.0" text="next" />
+   </children>
+</AnchorPane>

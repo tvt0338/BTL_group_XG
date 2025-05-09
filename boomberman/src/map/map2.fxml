@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="833.0" prefWidth="1530.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="map.Map2Controller">
+   <children>
+      <ImageView fitHeight="876.0" fitWidth="1570.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../menu/images/nen_2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="141.0" fitWidth="593.0" layoutX="488.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../menu/images/map2.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="label1" layoutX="-1.0" layoutY="165.0" prefHeight="475.0" prefWidth="1530.0" style="-fx-background-color: transparent;" styleClass="label-dialogue" stylesheets="@../menu/screen_2/play.css" textFill="#fff6f6" wrapText="true" />
+      <Label fx:id="label2" layoutX="218.0" layoutY="598.0" prefHeight="183.0" prefWidth="263.0" style="-fx-background-color: transparent;" styleClass="label-dialogue" stylesheets="@map1.css" textFill="WHITE" wrapText="true" />
+      <Label fx:id="label3" layoutX="578.0" layoutY="598.0" prefHeight="183.0" prefWidth="263.0" style="-fx-background-color: transparent;" styleClass="label-dialogue" text="." textFill="#fcfcfc" wrapText="true">
+         <stylesheets>
+            <URL value="@../menu/screen_2/play.css" />
+            <URL value="@map1.css" />
+         </stylesheets>
+      </Label>
+      <ImageView fx:id="gif1" fitHeight="46.0" fitWidth="46.0" layoutX="21.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../menu/images/sun.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gif2" fitHeight="46.0" fitWidth="46.0" layoutX="21.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../menu/images/sun.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="gif3" fitHeight="90.0" fitWidth="46.0" layoutX="21.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../menu/images/sun.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="iamg" fitHeight="46.0" fitWidth="52.0" layoutX="1364.0" layoutY="759.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../menu/images/ou.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="next" layoutX="1361.0" layoutY="759.0" mnemonicParsing="false" onAction="#onNextButtonClicked" opacity="0.0" prefHeight="46.0" prefWidth="52.0" text="next" />
+      <ImageView fx:id="imageView" fitHeight="96.0" fitWidth="98.0" layoutX="1339.0" layoutY="734.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../menu/images/mui_ten.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="startButton" layoutX="1346.0" layoutY="741.0" mnemonicParsing="false" onAction="#onStartButtonClicked" opacity="0.0" prefHeight="82.0" prefWidth="82.0" text="start" visible="false" />
+   </children>
+</AnchorPane>

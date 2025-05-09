@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="862.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.screen_2.AuthorsController">
+   <children>
+      <ImageView fitHeight="864.0" fitWidth="1536.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../images/authors.png" />
+         </image></ImageView>
+      <Button fx:id="returnButton" layoutX="1386.0" layoutY="760.0" mnemonicParsing="false" onAction="#returnToScreen" opacity="0.0" prefHeight="73.0" prefWidth="113.0" text="Return" />
+   </children>
+</AnchorPane>
