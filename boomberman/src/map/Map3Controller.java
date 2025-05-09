@@ -33,8 +33,8 @@ public class Map3Controller {
 
     private final List<String> dialogues = Arrays.asList(
             "Sau khi hạ gục đoàn quân của tướng quỷ Argon , hắn chạy về báo cáo với Malakar, Malakar tức giận và đã giết chết Argon rồi luyện hóa hắn.",
-            "Bomber bước vào Vực Thẳm Hư Không, nơi Malakar đang thi triển nghi thức biến đổi Thần Nhãn thành Ngọc Hủy Diệt. Không khí nặng nề, bóng tối bao trùm, và linh hồn lang thang khắp nơi.",
-            "Makalar xuất hiện, Bomber chính thức đối đầu với Makalar. Hãy ấn tiếp theo để xem trận chiến nào."
+            "Tuy nhiên đang trong quá trình Malakar hấp thu Argon thì Bomber đã đi vào và tặng cho chúng một quả boom ",
+            "Sau đó hàng ngàn quái vật nhỏ ùa ra tấn công bomber để trả thù cho chủ của chúng . Hãy ấn tiếp theo để theo dõi trận chiến đó ngay nào . "
     );
 
     private int currentIndex = 0;

@@ -31,12 +31,12 @@ public class Map2Controller {
     // Tách TEXT1 thành 3 đoạn ứng với 3 gif
     private final String PART1 = "      Tiến vào Thành Trì Bóng Tối, nơi quái vật tụ tập dưới sự chỉ huy của Tướng Quỷ Argon. Đây là trung tâm điều khiển đội quân ma quái của Malakar. Bomber phải đối đầu với những tên quái mạnh hơn.\n";
     private final String PART2 = "      Bomber phải tận dụng các vật phẩm hỗ trợ như God's Eye để nhìn thấu Void, và sử dụng Skyfall để tiêu diệt những tên Fly đáng ghét, sau đó đi vào portal để tiếp tục chiến đấu với boss.\n";
-    private final String PART3 = "     d Nhiệm vụ của bạn là hãy sử dụng các phím được hỗ trợ để điều khiển Bomber tiêu diệt những kẻ thù để thắp lại ánh sáng cho thành trì. \n";
+    private final String PART3 = "      Nhiệm vụ của bạn là hãy sử dụng các phím được hỗ trợ để điều khiển Bomber tiêu diệt những kẻ thù để thắp lại ánh sáng cho thành trì. \n";
 
     private final String TEXT2 = "🐉 Kẻ thù :\n" +
             "•   Fly\n" +
-            "•   Void\n"
-            ;
+            "•   Void\n"+
+            "•   Tanker\n";
 
     private final String TEXT3 = "💡 Mục tiêu:\n" +
             "•   Tiêu diệt toàn bộ quái vật.\n" +
