@@ -10,7 +10,7 @@
 
 
 ## Các đối tượng
-### - ![down_1.png](src/images/player/down_1.png)Player là nhân vật chính của trò chơi. Player có thể di chuyển các hướng và đặt bomb theo điều khiển của người chơi thông qua các phím hỗ trợ , hp mặc định của player là 200 , nếu ăn item Health  ![tym.gif](src/items/images/tym.gif) thì sẽ tăng 1 hp ; speed mặc định là 3 , nếu ăn item speed ![speed.gif](src/items/images/speed.gif) thì speed sẽ tăng gấp đôi trong 1 khaongr thời gian . 
+### ![image](https://github.com/user-attachments/assets/91c9be0b-4aef-429b-9844-10a344ee1462) Player là nhân vật chính của trò chơi. Player có thể di chuyển các hướng và đặt bomb theo điều khiển của người chơi thông qua các phím hỗ trợ , hp mặc định của player là 200 , nếu ăn item Health  ![tym.gif](src/items/images/tym.gif) thì sẽ tăng 1 hp ; speed mặc định là 3 , nếu ăn item speed ![speed.gif](src/items/images/speed.gif) thì speed sẽ tăng gấp đôi trong 1 khaongr thời gian . 
 
 ### - ![fly.gif](src/enemy/images/fly.gif) Enemy là các đối tượng mà Bomber phải tiêu diệt hết để có thể qua map. Enemy có thể di chuyển ngẫu nhiên hoặc tự đuổi theo Bomber tùy theo loại Enemy. Các loại Enemy sẽ được mô tả cụ thể ở phần dưới.
 
@@ -40,15 +40,16 @@
 
 
 # Các loại enemy
-### ![balloom_down.png](src/enemy/images/balloom_down.png)Balloom: Di chuyển ngẫu nhiên (Random).
+### ![balloom enemy](https://raw.githubusercontent.com/tvt0338/BTL_group_XG/main/enemy/images/balloom_down.png)
+ Balloom: Di chuyển ngẫu nhiên (Random).
 
-### ![fly.gif](src/enemy/images/fly.gif)Fly: Biết bay , bay qua tường ,luôn đuổi theo Bomber.
+### ![fly.gif](src/enemy/images/fly.gif) Fly: Biết bay , bay qua tường ,luôn đuổi theo Bomber.
 
-### ![tanker_left1.png](src/enemy/images/tanker_left1.png)Tanker : di chuyển chậm hơn balloom , tìm đường đến bomber bằng thuật toán BFS .
+### ![tanker_left1.png](src/enemy/images/tanker_left1.png) Tanker : di chuyển chậm hơn balloom , tìm đường đến bomber bằng thuật toán BFS .
 
-### ![void_left1.png](src/enemy/images/void_left1.png)Void : có thể tàn hình,tìm đuòng đến bomber bằng thuật toán A*, tàn hình và hiện hình luân phiên theo tỉ lệ 7 : 3.
+### ![void_left1.png](src/enemy/images/void_left1.png) Void : có thể tàn hình,tìm đuòng đến bomber bằng thuật toán A*, tàn hình và hiện hình luân phiên theo tỉ lệ 7 : 3.
 
-### ![oneal_left1.png](src/enemy/images/oneal_left1.png)Oneal: Tương tự Balloom, nó sẽ đuổi theo bomber bằng thuật toán A* tương tự void .
+### ![oneal_left1.png](src/enemy/images/oneal_left1.png) Oneal: Tương tự Balloom, nó sẽ đuổi theo bomber bằng thuật toán A* tương tự void .
 
 
 # Mô tả cách thức xử lý 
